@@ -27,7 +27,7 @@ body.dark-mode .app {
 }
 
 body:not(.dark-mode) .app {
-  background-color: #ffffff; /* Light background for app */
+  background-color:linear-gradient(135deg, #80deea,  #e0f7fa); /* Light background for app */
   color: #000; /* Ensure text is black */
 }
 
