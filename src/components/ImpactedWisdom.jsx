@@ -3,7 +3,7 @@ import './ImpactedWisdom.css'; // Assuming you have a CSS file for styling
 
 const ImpactedWisdom = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('toothachebg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/toothachebg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const ImpactedWisdom = () => {
         </div>
       </header>
       <section className="content">
-        <img src="impactedwisdom.jpg" alt="Impacted Wisdom Teeth" className="impacted-wisdom-image" />
+       {/*  <img src="impactedwisdom.jpg" alt="Impacted Wisdom Teeth" className="impacted-wisdom-image" />*/}
         <p>
           Impacted wisdom teeth are third molars at the back of the mouth that don't have enough room to emerge or develop normally. They may grow at an angle, partially emerge, or remain trapped within the jawbone. Impacted wisdom teeth can cause pain, swelling, infection, and damage to adjacent teeth. They often require surgical removal to prevent complications.
         </p>

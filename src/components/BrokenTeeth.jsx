@@ -3,7 +3,7 @@ import './BrokenTeeth.css'; // Assuming you have a CSS file for styling
 
 const BrokenTeeth = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('ulcersbg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/ulcersbg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const BrokenTeeth = () => {
         </div>
       </header>
       <section className="content">
-        <img src="brokenteeth.jpg" alt="Broken Teeth" className="broken-teeth-image" />
+      {/*   <img src="brokenteeth.jpg" alt="Broken Teeth" className="broken-teeth-image" />*/}
         <p>
           A broken tooth is a common dental issue that can result from trauma, biting on hard objects, or untreated cavities weakening the tooth structure. Depending on the severity, a broken tooth can cause pain, sensitivity, and difficulty chewing. It is important to seek dental care promptly to prevent further damage or infection.
         </p>

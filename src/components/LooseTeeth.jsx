@@ -1,9 +1,9 @@
 import React from 'react';
-import './LooseTeeth.css'; // Assuming you have a CSS file for styling
+import './LooseTeeth.css'; 
 
 const LooseTeeth = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('toothachebg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/toothachebg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const LooseTeeth = () => {
         </div>
       </header>
       <section className="content">
-        <img src="looseteeth.jpg" alt="Loose Teeth" className="loose-teeth-image" />
+         {/*<img src="looseteeth.jpg" alt="Loose Teeth" className="loose-teeth-image" />*/}
         <p>
           Loose teeth are a common dental issue that can occur in both children and adults. In children, loose teeth are a natural part of losing baby teeth. However, in adults, loose teeth can indicate underlying dental problems such as gum disease, injury, or bone loss. If left untreated, loose teeth can lead to tooth loss and other complications.
         </p>

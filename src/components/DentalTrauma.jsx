@@ -3,7 +3,7 @@ import './DentalTrauma.css'; // Assuming you have a CSS file for styling
 
 const DentalTrauma = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('cavitybg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/ulcersbg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const DentalTrauma = () => {
         </div>
       </header>
       <section className="content">
-        <img src="dentaltrauma.jpg" alt="Dental Trauma" className="dental-trauma-image" />
+         {/*<img src="dentaltrauma.jpg" alt="Dental Trauma" className="dental-trauma-image" />*/}
         <p>
           Dental trauma refers to injuries to the teeth, gums, or surrounding structures caused by accidents, sports injuries, falls, or other impacts. Common types of dental trauma include chipped or broken teeth, knocked-out teeth, and injuries to the soft tissues of the mouth. Immediate dental care is crucial to prevent further damage and ensure proper healing.
         </p>

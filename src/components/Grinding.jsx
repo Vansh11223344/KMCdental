@@ -3,7 +3,7 @@ import './Grinding.css'; // Assuming you have a CSS file for styling
 
 const Grinding = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('toothachebg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/ulcersbg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const Grinding = () => {
         </div>
       </header>
       <section className="content">
-        <img src="grinding.jpg" alt="Grinding (Bruxism)" className="grinding-image" />
+      {/*   <img src="grinding.jpg" alt="Grinding (Bruxism)" className="grinding-image" />*/}
         <p>
           Grinding, also known as bruxism, is a condition where a person clenches or grinds their teeth, often unconsciously. This can occur during the day or at night (sleep bruxism) and can lead to tooth damage, jaw pain, headaches, and other complications. Bruxism is often linked to stress, anxiety, or misaligned teeth.
         </p>

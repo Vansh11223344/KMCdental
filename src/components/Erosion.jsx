@@ -3,7 +3,7 @@ import './Erosion.css';
 
 const Erosion = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('ulcersbg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/ulcersbg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const Erosion = () => {
         </div>
       </header>
       <section className="content">
-        <img src="tootherosion.jpg" alt="Tooth Erosion" className="tooth-erosion-image" />
+       {/*  <img src="tootherosion.jpg" alt="Tooth Erosion" className="tooth-erosion-image" />*/}
         <p>
           Tooth erosion, also known as enamel erosion, is the gradual wearing away of the tooth's protective outer layer (enamel) due to acid exposure. This can lead to sensitivity, discoloration, and an increased risk of cavities. Unlike tooth decay, which is caused by bacteria, tooth erosion is primarily caused by acidic foods, drinks, or stomach acids.
         </p>

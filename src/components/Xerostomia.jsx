@@ -3,7 +3,7 @@ import './Xerostomia.css'; // Assuming you have a CSS file for styling
 
 const Xerostomia = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('ulcersbg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/Sensitivitybg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const Xerostomia = () => {
         </div>
       </header>
       <section className="content">
-        <img src="xerostomia.jpg" alt="Xerostomia (Dry Mouth)" className="xerostomia-image" />
+         {/*<img src="xerostomia.jpg" alt="Xerostomia (Dry Mouth)" className="xerostomia-image" />*/}
         <p>
           Xerostomia, commonly known as dry mouth, is a condition where the salivary glands in the mouth do not produce enough saliva to keep the mouth moist. This can lead to discomfort, difficulty speaking or swallowing, and an increased risk of dental problems such as cavities and gum disease. Dry mouth can be a temporary or chronic condition and is often a side effect of medications or underlying health issues.
         </p>

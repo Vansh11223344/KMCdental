@@ -3,7 +3,7 @@ import './Stained.css'; // Assuming you have a CSS file for styling
 
 const Stained = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('cavitybg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/Sensitivitybg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const Stained = () => {
         </div>
       </header>
       <section className="content">
-        <img src="stainedteeth.jpg" alt="Stained Teeth" className="stained-teeth-image" />
+      {/*   <img src="stainedteeth.jpg" alt="Stained Teeth" className="stained-teeth-image" />*/}
         <p>
           Stained teeth, also known as tooth discoloration, occur when the natural color of the teeth changes, resulting in a yellow, brown, or gray appearance. Stains can be extrinsic (on the surface of the teeth) or intrinsic (within the tooth structure). While stained teeth are often a cosmetic concern, they can also indicate underlying dental issues.
         </p>

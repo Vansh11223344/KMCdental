@@ -22,7 +22,7 @@ const DentalForm = () => {
       <p className="subheading">
         Simply complete the below form and attach a minimum of 3 clear photos as specified. Our Tooth Doctor Dentists will be in touch with feedback, advice, and options for you.
       </p>
-      <p className="note">*To receive an online consultation, you must be a UK resident</p>
+      <p className="note"></p>
 
       <form>
         <div className="form-row">

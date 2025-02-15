@@ -22,7 +22,7 @@ import RootCanal from './components/RootCanal';
 import TMJDisorders from './components/TMJDisorders';
 import Hypoplasia from './components/Hypoplasia';
 import DentalForm from './components/DentalForm';
-
+import Login from './components/Login';
 
 const App = () => {
   return (
@@ -92,6 +92,8 @@ const App = () => {
       
       <Route path="/Hypoplasia" element={<Hypoplasia />} />
 
+      <Route path="/Login" element={<Login />} />
+      
       <Route path="/DentalForm" element={<DentalForm />} />
 
       </Routes>

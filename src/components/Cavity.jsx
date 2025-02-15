@@ -4,7 +4,7 @@ import './Cavity.css';
 
 const Cavity = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('cavitybg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/Sensitivitybg.webp')` }}>
       <header>
         <div className="header-content">
         <a href="/" className="home-link">
@@ -14,7 +14,7 @@ const Cavity = () => {
         </div>
       </header>
       <section className="content">
-        <img src="cavityteeth.jpg" alt="Cavities" className="cavity-image" />
+     {/*   <img src="src/components/cavityteeth.jpg" alt="Cavities" className="cavity-image" />*/}
         <p>
         A cavity, also known as dental caries or tooth decay, is a permanent damage to the hard surface of the tooth that develops into tiny holes or openings. It is caused by the interaction of sugars and starches from food with bacteria in the mouth. When these bacteria digest the sugars, they produce acids that erode the protective enamel on the tooth. Over time, repeated acid attacks can lead to the breakdown of enamel, eventually forming cavities.
         </p>

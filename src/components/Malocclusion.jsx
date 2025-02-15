@@ -3,7 +3,7 @@ import './Malocclusion.css'; // Assuming you have a CSS file for styling
 
 const Malocclusion = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('toothachebg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/toothachebg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const Malocclusion = () => {
         </div>
       </header>
       <section className="content">
-        <img src="malocclusion.jpg" alt="Malocclusion" className="malocclusion-image" />
+         {/*<img src="malocclusion.jpg" alt="Malocclusion" className="malocclusion-image" />*/}
         <p>
           Malocclusion refers to the misalignment of teeth or incorrect relation between the teeth of the two dental arches. It can lead to issues such as difficulty chewing, speech problems, and an increased risk of tooth decay and gum disease. Malocclusion is often classified into different types, including overbite, underbite, crossbite, and open bite.
         </p>

@@ -3,7 +3,7 @@ import './Abscess.css'; // Assuming you have a CSS file for styling
 
 const Abscess = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('ulcersbg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/ulcersbg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const Abscess = () => {
         </div>
       </header>
       <section className="content">
-        <img src="/abscess.jpg" alt="Abscess" className="abscess-image" />
+        {/* <img src="/abscess.jpg" alt="Abscess" className="abscess-image" />*/}
         <p>
           A dental abscess is a pocket of pus caused by a bacterial infection. It can occur in different regions of the tooth, including the root (periapical abscess) or the gums (periodontal abscess). Abscesses are often painful and can lead to swelling, fever, and a bad taste in the mouth. If left untreated, the infection can spread to other parts of the body, leading to serious complications.
         </p>

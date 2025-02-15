@@ -3,7 +3,7 @@ import './ToothSensitivity.css'; // Assuming you have a CSS file for styling
 
 const ToothSensitivity = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('sensitivitybg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/Sensitivitybg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const ToothSensitivity = () => {
         </div>
       </header>
       <section className="content">
-        <img src="sensitivity.jpg" alt="Tooth Sensitivity" className="sensitivity-image" />
+       {/*  <img src="sensitivity.jpg" alt="Tooth Sensitivity" className="sensitivity-image" />*/}
         <p>
           Tooth sensitivity, also known as dentin hypersensitivity, is a common dental problem characterized by sharp, temporary pain in response to stimuli such as hot, cold, sweet, or acidic foods and drinks. It occurs when the protective enamel on the tooth wears down, exposing the underlying dentin and nerve pathways. Tooth sensitivity can affect one or more teeth and can significantly impact daily life if left untreated.
         </p>

@@ -3,7 +3,7 @@ import './Ulcers.css';
 
 const Ulcers = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('ulcersbg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/Sensitivitybg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const Ulcers = () => {
         </div>
       </header>
       <section className="content">
-        <img src="ulcers.jpg" alt="Mouth Ulcers" className="ulcers-image" />
+        {/* <img src="ulcers.jpg" alt="Mouth Ulcers" className="ulcers-image" />*/}
         <p>
           Mouth ulcers, also known as canker sores, are small, painful lesions that develop on the soft tissues inside the mouth, such as the gums, tongue, or inner cheeks. They are usually round or oval with a white or yellow center and a red border. While most mouth ulcers are harmless and heal on their own, they can cause discomfort and make eating or speaking difficult.
         </p>

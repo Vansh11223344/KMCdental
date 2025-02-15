@@ -62,7 +62,10 @@ body:not(.dark-mode) .app {
   border: none;
   font-size: 20px;
   cursor: pointer;
+  padding: 3px; /* Decrease padding to reduce clickable area */
+  width: 100px; 
 }
+
 
 /* Hero Section */
 .hero {
@@ -240,7 +243,10 @@ body:not(.dark-mode) .app {
   cursor: pointer;
   font-size: 16px;
 }
-
+.sticky-cta:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  color:white;
+}
 .contact-info {
   margin-top: 20px;
 }
@@ -260,7 +266,6 @@ body:not(.dark-mode) .app {
   font-family: 'Poppins', sans-serif; /* Optional font */
 }
 
-/* Optional: Add a gradient background */
 .dental-care-heading {
   background: linear-gradient(135deg, #80deea, #00796b);
 }
@@ -276,4 +281,26 @@ body:not(.dark-mode) .app {
 
 .key-services {
   margin-bottom: 200px; /* Space below the service cards */
+}
+.nav-links .nav-item {
+  cursor: pointer;
+  color: #007bff; /* Optional: Makes it clear that it's a clickable link */
+}
+
+.nav-links .nav-item:hover {
+  text-decoration: underline;
+}
+
+.service-card button {
+  cursor: pointer;
+  background-color: #ff7b00;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.service-card button:hover {
+  background-color: #cc7a00;
 }

@@ -3,7 +3,7 @@ import './Gum.css'; // Assuming you have a CSS file for styling
 
 const Gum = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('toothachebg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/toothachebg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const Gum = () => {
         </div>
       </header>
       <section className="content">
-        <img src="gum.jpg" alt="Gum Disease" className="gum-image" />
+      {/*   <img src="gum.jpg" alt="Gum Disease" className="gum-image" />*/}
         <p>
           Gum disease, also known as periodontal disease, is an infection of the tissues that surround and support your teeth. It is a major cause of tooth loss in adults and is often painless, so you may not know you have it. Gum disease ranges from simple gum inflammation (gingivitis) to serious damage to the soft tissue and bone that support the teeth (periodontitis).
         </p>

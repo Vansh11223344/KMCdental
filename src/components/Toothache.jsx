@@ -3,7 +3,7 @@ import './Toothache.css';
 
 const Toothache = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('toothachebg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/toothachebg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const Toothache = () => {
         </div>
       </header>
       <section className="content">
-        <img src="toothache.jpg" alt="Toothache" className="toothache-image" />
+         {/*<img src="toothache.jpg" alt="Toothache" className="toothache-image" />*/}
         <p>
           A toothache is pain in or around a tooth, often caused by dental issues such as cavities, gum disease, tooth fractures, or infections. The pain can range from mild discomfort to severe, throbbing pain and may be accompanied by swelling, fever, or sensitivity to hot or cold foods and drinks. Toothaches should not be ignored, as they can indicate underlying dental problems that require professional treatment.
         </p>

@@ -4,15 +4,37 @@ import "./Front.css";
 
 const Front = () => {
   const [darkMode, setDarkMode] = useState(false);
+  const navigate = useNavigate(); 
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  
   const toggleDarkMode = () => {
   setDarkMode(!darkMode);
- 
- 
   document.body.classList.toggle('dark-mode', !darkMode);
-  
-
 };
-  const navigate = useNavigate(); 
+
+const handleBookConsultationClick = () => {
+  if (isAuthenticated) {
+    navigate('/DentalForm');
+  } else {
+    navigate('/Login');
+  }
+};
+
+const scrollToKeyServices = () => {
+  const keyServicesSection = document.getElementById("key-services");
+  if (keyServicesSection) {
+    keyServicesSection.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
+
+const scrollToHowCanWeHelp = () => {
+  const helpSection = document.getElementById("how-can-we-help");
+  if (helpSection) {
+    helpSection.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
 
   const handleCavitiesClick = () => {
     navigate('/Cavity');
@@ -100,10 +122,10 @@ const Front = () => {
       <nav className="navbar">
         <div className="logo">HealthCare+</div>
         <ul className="nav-links">
-          <li>Home</li>
-          <li>Services</li>
-          <li>Blog</li>
-          <li>Contact</li>
+        <li className="nav-item" onClick={scrollToHowCanWeHelp}>About Us</li>
+          <li className="nav-item" onClick={scrollToKeyServices}>Services</li>
+       {/*   <li>Blog</li>*/}
+        
         </ul>
         <button className="dark-mode-toggle" onClick={toggleDarkMode}>
           {darkMode ? "⚪🌞" : "⚫🌙"}
@@ -115,18 +137,15 @@ const Front = () => {
         <div className="hero-content">
           <h1>Your Health, Our Priority</h1>
           <p>Find the best doctors, book appointments, and consult online.</p>
-          <div className="search-bar">
-            <input type="text" placeholder="Find doctors, services, or treatments" />
-            <button>Search</button>
-          </div>
-          <button className="cta-button">Book an Appointment</button>
+          <button className="cta-button" onClick={handleBookConsultationClick}>
+            Book an Appointment
+          </button>
         </div>
-        <div className="hero-image">
+        <div className="hero-image"></div>
         {/*   <img src="path_to_image" alt="Doctor and Patient" /> 
          <div className="floating-stethoscope" aria-label="Floating stethoscope icon">🩺</div>
 */}
   
-        </div>
       </section>
 
       {/* Why Choose Us Section */}
@@ -150,7 +169,7 @@ const Front = () => {
       </section>
 
       {/* Key Services Section */}
-      <section className="key-services">
+      <section id="key-services" className="key-services">
   <h2>Common Dental Issues</h2>
   <div className="services-grid">
   <div className="service-card" style={{ backgroundColor: 'orange', padding: '10px', borderRadius: '5px' }}>
@@ -236,7 +255,8 @@ const Front = () => {
   </div>
 </section>
 
-<section className="how-can-we-help">
+<section id="how-can-we-help" className="how-can-we-help">
+
 <h1 style={{ fontSize: '3rem' }}>How Can We Help?</h1>
    <p>Our dentists can offer feedback on a range of dental queries, from dental issues to cosmetic dentistry enquiries. Whether you’re worried about a particular issue, or you’re considering ways to improve your smile, our dentists can review pictures of your teeth and offer personalised advice.
    </p>
@@ -278,9 +298,10 @@ If you can send us clear pictures from these angles, it will help us offer you h
       {/* Footer */}
       <footer className="footer">
         <div className="footer-content">
-        <button 
-      className="sticky-cta" onClick={() => navigate('/DentalForm')}>Book a Consultation
-      </button>
+          
+        <button className="sticky-cta" onClick={handleBookConsultationClick}>Book a Consultation</button>
+
+
           <div className="contact-info">
             <p>📞 +1-800-HEALTH</p>
             <p>✉️ support@healthcareplus.com</p>

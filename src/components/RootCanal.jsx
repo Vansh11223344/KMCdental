@@ -3,7 +3,7 @@ import './RootCanal.css'; // Assuming you have a CSS file for styling
 
 const RootCanal = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('cavitybg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/Sensitivitybg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const RootCanal = () => {
         </div>
       </header>
       <section className="content">
-        <img src="rootcanal.jpg" alt="Root Canal" className="root-canal-image" />
+       {/*  <img src="rootcanal.jpg" alt="Root Canal" className="root-canal-image" />*/}
         <p>
           A root canal is a dental procedure used to treat infection or damage in the pulp of a tooth. The pulp, which contains nerves and blood vessels, can become infected due to deep decay, repeated dental procedures, or trauma. A root canal involves removing the infected pulp, cleaning and disinfecting the root canals, and sealing the tooth to prevent further infection.
         </p>

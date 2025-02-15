@@ -3,7 +3,7 @@ import './TMJDisorders.css'; // Assuming you have a CSS file for styling
 
 const TMJDisorders = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('cavitybg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/Sensitivitybg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const TMJDisorders = () => {
         </div>
       </header>
       <section className="content">
-        <img src="tmj.jpg" alt="TMJ Disorders" className="tmj-image" />
+       {/*  <img src="tmj.jpg" alt="TMJ Disorders" className="tmj-image" />*/}
         <p>
           TMJ disorders are conditions that affect the temporomandibular joint, which connects your jawbone to your skull. These disorders can cause pain and discomfort in the jaw joint and the muscles that control jaw movement. Symptoms may include jaw pain, difficulty chewing, clicking or popping sounds, and headaches. TMJ disorders can be temporary or chronic and may require medical intervention.
         </p>

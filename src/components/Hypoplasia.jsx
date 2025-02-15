@@ -3,7 +3,7 @@ import './Hypoplasia.css'; // Assuming you have a CSS file for styling
 
 const Hypoplasia = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('toothachebg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/toothachebg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const Hypoplasia = () => {
         </div>
       </header>
       <section className="content">
-        <img src="hypoplasia.jpg" alt="Hypoplasia" className="hypoplasia-image" />
+        {/* <img src="hypoplasia.jpg" alt="Hypoplasia" className="hypoplasia-image" />*/}
         <p>
           Hypoplasia is a condition where the enamel of the teeth is underdeveloped, resulting in thin or missing enamel. This can make teeth more susceptible to decay, sensitivity, and damage. Hypoplasia can affect both primary (baby) and permanent teeth and is often caused by factors during tooth development, such as malnutrition, illness, or exposure to certain medications.
         </p>

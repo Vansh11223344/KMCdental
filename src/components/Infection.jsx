@@ -3,7 +3,7 @@ import './Infection.css'; // Assuming you have a CSS file for styling
 
 const Infection = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('Sensitivitybg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/toothachebg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const Infection = () => {
         </div>
       </header>
       <section className="content">
-        <img src="infection.jpg" alt="Dental Infection" className="infection-image" />
+         {/*<img src="infection.jpg" alt="Dental Infection" className="infection-image" />*/}
         <p>
           A dental infection, also known as a tooth abscess, is a pocket of pus caused by a bacterial infection. It can occur in different parts of the tooth, such as the root (periapical abscess) or the gums (periodontal abscess). Dental infections are often painful and can lead to swelling, fever, and a bad taste in the mouth. If left untreated, the infection can spread to other parts of the body, leading to serious complications.
         </p>

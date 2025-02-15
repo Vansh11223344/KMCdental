@@ -3,7 +3,7 @@ import './Fractures.css'; // Assuming you have a CSS file for styling
 
 const Fractures = () => {
   return (
-    <div className="container" style={{ backgroundImage: `url('toothachebg.webp')` }}>
+    <div className="container" style={{ backgroundImage: `url('src/components/ulcersbg.webp')` }}>
       <header>
         <div className="header-content">
           <a href="/" className="home-link">
@@ -13,7 +13,7 @@ const Fractures = () => {
         </div>
       </header>
       <section className="content">
-        <img src="fracture.jpg" alt="Fractures of Teeth" className="fracture-image" />
+    {/*     <img src="fracture.jpg" alt="Fractures of Teeth" className="fracture-image" />*/}
         <p>
           Fractures of teeth, also known as cracked or broken teeth, occur when a tooth is damaged due to trauma, biting on hard objects, or untreated cavities weakening the tooth structure. Depending on the severity, fractures can cause pain, sensitivity, and difficulty chewing. Prompt dental care is essential to prevent further damage or infection.
         </p>
