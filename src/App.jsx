@@ -23,6 +23,9 @@ import TMJDisorders from './components/TMJDisorders';
 import Hypoplasia from './components/Hypoplasia';
 import DentalForm from './components/DentalForm';
 import Login from './components/Login';
+import DentistConsultationPage from './components/DentistConsultationPage';
+import PaymentScreen from './components/PaymentScreen';
+
 
 const App = () => {
   return (
@@ -95,6 +98,11 @@ const App = () => {
       <Route path="/Login" element={<Login />} />
       
       <Route path="/DentalForm" element={<DentalForm />} />
+
+      <Route path="/DentistConsultationPage" element={<DentistConsultationPage />} />
+      <Route path="/PaymentScreen" element={<PaymentScreen />} />
+     
+
 
       </Routes>
     </div>

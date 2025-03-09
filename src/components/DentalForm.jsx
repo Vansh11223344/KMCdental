@@ -1,8 +1,12 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './DentalForm.css'; // Assuming you have a CSS file for styling
+import { useLocation } from "react-router-dom";
+
+import './DentalForm.css'; 
 
 const DentalForm = () => {
+  const location = useLocation();
+  //const { dentist } = location.state;
   const navigate = useNavigate(); 
 
   return (

@@ -116,6 +116,16 @@ const scrollToHowCanWeHelp = () => {
     navigate('/Hypoplasia');
   };
 
+  const handlePaymentScreenClick  = () => {
+    navigate('/PaymentScreen ');
+  };
+  const handleDentalFormClick = () => {
+    navigate('/DentalForm');
+  };
+
+  const handleDentistConsultationPageClick = () => {
+    navigate('/DentistConsultationPage');
+  };
   return (
     <div className={`app ${darkMode ? "dark-mode" : ""}`}>
       {/* Navbar */}
@@ -137,7 +147,7 @@ const scrollToHowCanWeHelp = () => {
         <div className="hero-content">
           <h1>Your Health, Our Priority</h1>
           <p>Find the best doctors, book appointments, and consult online.</p>
-          <button className="cta-button" onClick={handleBookConsultationClick}>
+          <button className="cta-button" onClick={handleDentistConsultationPageClick}>
             Book an Appointment
           </button>
         </div>
@@ -299,7 +309,7 @@ If you can send us clear pictures from these angles, it will help us offer you h
       <footer className="footer">
         <div className="footer-content">
           
-        <button className="sticky-cta" onClick={handleBookConsultationClick}>Book a Consultation</button>
+        <button className="sticky-cta" onClick={handleBookConsultationClick}>Registration </button>
 
 
           <div className="contact-info">
